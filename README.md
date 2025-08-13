@@ -38,4 +38,3 @@ Votre programme sera structuré autour de plusieurs classes principales, chacune
 - **Classe `Station`** : Représente une étape de production, avec une file d'attente pour gérer les produits en attente, un temps de traitement variable, et la possibilité de tomber en panne.
 - **Classe `PileDefauts`** : Gère une pile de produits défectueux, avec un mécanisme pour les renvoyer à une étape précédente.
 - **Classe `Usine`** : Orchestre toute la simulation, en gérant les stations, la pile des défauts, et les produits finis, et produit un rapport final.
-
